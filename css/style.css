@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+}
+.header {
+  background-image: url(https://topazdetailing.com/wp-content/uploads/2017/05/topaz-detailing-london-page-header-main-background-05.jpg);
+  background-color: #1b2127;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  background-size: 500px 300px;
+}
+.menu {
+  height: inherit;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+ol,
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+}
+
+.imgContainer {
+  object-fit: cover;
+}
+figure {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  text-transform: capitalize;
+}
+h1 {
+  line-height: 1.5; /*si no tienes idea del valor que ponerle revisa el tama;o de tu fuente en la consola*/
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+p {
+  font-family: "Source Sans Pro";
+}
+strong {
+  color: #1abc9c;
+}
+
+.principalSection {
+  /* height: 300px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b2127;
+}
+.eventSection {
+  text-transform: capitalize;
+  background: #fafafa;
+}
+.eventSection h2 {
+  color: #1abc9c;
+}
+.event {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  background: #1b2127;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.social h3 {
+  color: #1abc9c;
+}
+.forEmail button {
+  display: block;
+  background: transparent;
+  padding: 5px 30px;
+  color: #1abc9c;
+  font-size: 15px;
+  font-family: "Fjalla One";
+}
+.instaLink {
+  background-image: url(https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/instagram.svg);
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  display: inline-block;
+  /* background-repeat: no-repeat; */
+}
+.gitLink {
+  background-image: url(https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/github.svg);
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
